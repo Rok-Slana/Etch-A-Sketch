@@ -14,7 +14,58 @@ body{
 }
 
 .container{
-    height: 500px;
-    width: 500px;
-    background-color: red;
+    width: 640px;
+    height: 640px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
+
+.canvasLine{
+    flex: 1;
+    display: flex;
+}
+
+.pixel{
+    flex: 1;    
+}
+
+.p0{
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px solid white;*/
+}
+.p1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.p2{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.p3{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.p4{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.p5{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.p6{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.p7{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.p8{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.p9{
+    background-color: rgba(0, 0, 0, 1);
+}/*
+.p10{
+    background-color: rgba(0, 0, 0, 1);
+}
+.colorizedPixel{
+    flex: 1;
+    background-color: black;
+}
+*/
